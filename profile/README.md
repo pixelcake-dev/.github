@@ -12,12 +12,12 @@ then ask it a question: does this PC reach that server? If it does not, you see 
 
 One place to do three things with a network:
 
-- **Design**: devices, links, ports and network cards on a canvas, with their addresses, VLANs, static routes, firewall zones and ordered rules, NAT and port forwards
+- **Design**: devices, links, ports and network cards on a canvas, with their addresses, VLANs, static routes, firewall zones and ordered rules, NAT and port forwards, DHCP for what takes its address by itself and DNS to call a device by name
 - **Ask**: ping, web, download and email flows are followed hop by hop, from a panel or from a built-in terminal with a small vendor-neutral command language; when a flow fails, the answer names the device that stopped it, and the port, the route or the rule it used
 - **Present**: a presentation mode to ask questions on the drawing, break a cable or a device and see what stops working; the board goes out as a picture, PNG or SVG
 
 What it does not do: it does not go down to single frames (no ARP, no MAC tables), its routes are static,
-and there is no DHCP, DNS or spanning tree yet. The topology exports to YAML and loads back; the Terraform export is only a sketch.
+and there is no spanning tree yet. The topology exports to YAML and loads back; the Terraform export is only a sketch.
 
 **Status:** early prototype. The code stays private until it is ready.
 
