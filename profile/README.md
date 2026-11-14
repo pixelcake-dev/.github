@@ -22,3 +22,5 @@ and there is no spanning tree yet. The topology exports to YAML and loads back; 
 **Status:** early prototype. The code stays private until it is ready.
 
 Built by [@Phil-pje](https://github.com/Phil-pje) with React, TypeScript and React Flow.
+
+<!-- Kept identical to README.md at the root of this repository: change both together. -->
