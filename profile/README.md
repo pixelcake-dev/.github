@@ -19,7 +19,7 @@ One place to do three things with a network:
 What it does not do: it does not go down to single frames (no ARP, no MAC tables), its routes are static,
 and there is no spanning tree yet. The topology exports to YAML and loads back; the Terraform export is only a sketch.
 
-**Status:** early prototype. The code stays private until it is ready.
+**Status:** early version, in English and Italian. Use it at [app.pixelcake.dev](https://app.pixelcake.dev), read about it at [pixelcake.dev](https://pixelcake.dev); the code is in [pixelcake](https://github.com/pixelcake-dev/pixelcake), under the AGPL-3.0.
 
 Built by [@Phil-pje](https://github.com/Phil-pje) with React, TypeScript and React Flow.
 
